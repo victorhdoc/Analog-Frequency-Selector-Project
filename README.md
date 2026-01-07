@@ -48,11 +48,13 @@ This is the "brain" of the circuit. It works in three steps:
 The circuit was validated using an oscilloscope to verify the switching threshold.
 
 ### Case A: Input within range (15 kHz)
-*(Add your "Image A" here - The one with the blue/yellow waves matching)*
+![entrada 15khz](https://github.com/user-attachments/assets/ed91f9b1-046e-4793-b79a-b13e85512758)
+
 > **Observation:** The system allows the signal to pass. The output (Yellow) follows the input (Blue).
 
 ### Case B: Input above threshold (20 kHz)
-*(Add your "Image B" here - The one where the yellow wave changes frequency)*
+![entrada 20khz](https://github.com/user-attachments/assets/1d2aac9a-337c-4298-91eb-30d9fe3d0660)
+
 > **Observation:** The protection logic triggers. The input signal is blocked, and the circuit instantly switches the output to the local 1 kHz oscillator.
 
 ---
